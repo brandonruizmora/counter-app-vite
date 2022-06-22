@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suit First App Debe hacer match con el snapshot estado default 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="center-text"
+    >
+      <h1>
+        CounterApp
+      </h1>
+      <h2
+        data-testid="counter"
+      >
+        0
+      </h2>
+      <button
+        type="button"
+      >
+        +1
+      </button>
+      <button
+        type="button"
+      >
+        -1
+      </button>
+      <button
+        aria-label="btn-reset"
+        type="button"
+      >
+        reset
+      </button>
+    </div>
+  </div>
+</div>
+`;

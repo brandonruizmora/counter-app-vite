@@ -22,10 +22,10 @@ const FirstApp = ({ value }) => {
     <div className='container'>
       <div className='center-text'>
         <h1>CounterApp</h1>
-        <h2>{counter}</h2>
+        <h2 data-testid="counter">{counter}</h2>
         <button type='button' onClick={handleClickAdd}>+1</button>
         <button type='button' onClick={handleClickSubstract}>-1</button>
-        <button type='button' onClick={handleClickReset}>reset</button>
+        <button aria-label='btn-reset' type='button' onClick={handleClickReset}>reset</button>
       </div>
     </div>
   )
